@@ -20,6 +20,6 @@ Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-me
 
 /****************** main stylesheet********************/
 /* @import "./assets/main.css"; */
-@import "./assets/main23.css";
-@import "./assets/navigation.css";
-@import "./assets/slider.css";
+@import "./assets/css/main23.css";
+@import "./assets/css/navigation.css";
+@import "./assets/css/slider.css";

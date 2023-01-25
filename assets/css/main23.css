@@ -114,18 +114,20 @@ header {
   margin-bottom: 35px;
 }
 
-.aboutcontent {
+.txtcontent {
   opacity: 0;
   transition: opacity .6s cubic-bezier(0.16, 1, 0.3, 1),transform .6s cubic-bezier(0.16, 1, 0.3, 1);
   transform: translateY(25px);
 }
 
-.aboutcontent.show   {
+.txtcontent.show   {
   opacity: 1;
   transform: translateY(0);
 }
 
-
+#aboutme img {
+  max-height: 100vh;
+}
 
 #aboutme .content {
   text-align: right;
@@ -162,17 +164,23 @@ header {
 
 /* animate letters */
 
-.letters .letter:nth-child(n+6) {
+#aboutme .letters .letter:nth-child(n+6) {
   color: white;
 }
 
-.ml6{
+#projects .letters .letter:nth-child(n+9) {
+  color: black;
+}
+#contact .letters .letter:nth-child(n+18) {
+  color: black;
+}
+.ml6, .ml7, .ml8 {
   position: relative;
   font-weight: 900;
   font-size: 3.3em;
 }
 
-.ml6 .text-wrapper {
+.ml6 .text-wrapper, .ml7 .text-wrapper, .ml8 .text-wrapper {
   position: relative;
   display: inline-block;
   padding-top: 0.2em;
@@ -181,7 +189,7 @@ header {
   overflow: hidden;
 }
 
-.ml6 .letter {
+.ml6 .letter, .ml7 .letter, .ml8 .letter {
   display: inline-block;
   line-height: 1em;
 }
@@ -267,6 +275,7 @@ header {
 
 .contact .content .row {
     margin-top: 50px;
+    padding: 0 10px;
 }
 
 .contact-form .contact-info {

@@ -113,7 +113,7 @@
                 <img src="/wp-content/uploads/2023/01/jono-min.png" alt="jono">
             </div>
             <div class="col-md-6">
-                <div class="aboutcontent">
+                <div class="txtcontent">
                     <div class="content">
                         <h1 class="ml6">
                             <span class="text-wrapper">
@@ -149,22 +149,20 @@
                 <p>Focus on Business. I'll take care of your websites.</p>
             </div>
             <div class="col-md-6">
-                <div class="content">
-                    <h1>Designer</h1>
-                    <h1>Websites</h1>
-                    <a href="/shop-2" class="btn-ed btn-designer-websites"> See More </a>
+                <div class="txtcontent">
+                    <div class="content">
+                        <h1 class="ml7">
+                            <span class="text-wrapper">
+                                <span class="letters">
+                                    Designer Websites
+                                </span>
+                            </span>
+                        </h1>
+                        <a href="/shop-2" class="btn-ed btn-designer-websites"> See More </a>
+                    </div>
                 </div>
             </div>
         </div>
-
-        <div class="row">
-            <div class="col">
-                <!-- <img src="/wp-content/uploads/2022/12/tram.jpg" alt="escite"> -->
-                
-            </div>
-        </div>
-
-
 
     </div>
 </div>
@@ -223,27 +221,32 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
-                <div class="content">
-                    <h1>You Have</h1>
-                    <h1>Big Plans.</h1>
-                    <h1>I'm Here</h1>
-                    <h1>To Help.</h1>
+                <div class="txtcontent">
+                    <div class="content">
+                        <h1 class="ml8">
+                            <span class="text-wrapper">
+                                <span class="letters">
+                                    You Have Big Plans. I'm Here To Help.
+                                </span>
+                            </span>
+                        </h1>
 
-                        <div class="row">
-                            <div class="contact-details">
-                                <div class="bus">
-                                    <h3>Available</h3>
-                                    <p>Monday to Sunday
-                                    <br>6am to 6pm AEST
-                                    </p>
-                                </div>
-                                <div class="loc">
-                                    <h3>Location</h3>
-                                    <p>Brisbane City 4000
-                                    <br>Queensland, Australia</p>
+                            <div class="row">
+                                <div class="contact-details">
+                                    <div class="bus">
+                                        <h3>Available</h3>
+                                        <p>Monday to Sunday
+                                        <br>6am to 6pm AEST
+                                        </p>
+                                    </div>
+                                    <div class="loc">
+                                        <h3>Location</h3>
+                                        <p>Brisbane City 4000
+                                        <br>Queensland, Australia</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-lg-6 contact-form">
