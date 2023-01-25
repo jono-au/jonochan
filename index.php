@@ -109,13 +109,19 @@
 
 <div class="container-fluid panel" data-color="orange" id="aboutme" style="height:100vh;">
     <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6"> 
+                <img src="/wp-content/uploads/2023/01/jono-min.png" alt="jono">
             </div>
             <div class="col-md-6">
                 <div class="aboutcontent">
                     <div class="content">
-                        <h1>I Love</h1>
-                        <h1>Websites</h1>
+                        <h1 class="ml6">
+                            <span class="text-wrapper">
+                                <span class="letters">
+                                    I love Websites
+                                </span>
+                            </span>
+                        </h1>
                     </div>
                     <p>
                         I started creating sites just for fun back in 2016. Ever since then I've never stopped learning new languages and programming skills.

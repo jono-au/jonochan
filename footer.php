@@ -16,6 +16,55 @@
     const observer = new IntersectionObserver( entries => {
        const content = entries[0];
         content.target.classList.toggle('show', content.isIntersecting);
+
+            //animate letters
+            // Wrap every letter in a span
+            var textWrapper = document.querySelector('.ml6 .letters');
+            textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+            //after splitting letters add link break between love / websites
+            const insertAfter = (element, htmlString) => element.insertAdjacentHTML("afterend",htmlString);
+            const element = document.querySelector('.letters .letter:nth-child(5)');
+            const htmlString = '<br>'
+            insertAfter(element, htmlString);
+
+
+            anime.timeline()
+            .add({
+                targets: '.ml6 .letter',
+                translateY: ["1.1em", 0],
+                translateZ: 0,
+                duration: 750,
+                delay: (el, i) => 50 * i
+            }).add({
+                targets: '.ml6',
+                opacity: 1,
+                duration: 1000,
+                easing: "easeOutExpo",
+                delay: 1000
+            });
+
+
+
+            //animate letters
+            // Wrap every letter in a span
+            var textWrapper = document.querySelector('.ml7 .letters');
+            textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+            anime.timeline()
+            .add({
+                targets: '.ml7 .letter',
+                translateY: ["1.1em", 0],
+                translateZ: 0,
+                duration: 750,
+                delay: (el, i) => 50 * i
+            }).add({
+                targets: '.ml7',
+                opacity: 1,
+                duration: 1000,
+                easing: "easeOutExpo",
+                delay: 1000
+            });
      
     }, {
         threshold: 0.5,
@@ -41,9 +90,15 @@ window.addEventListener("scroll", function() {
     if (window.scrollY > 50) {
         document.querySelector(".contact-icons").style.transform= "translateX(0)";
     } else {
-        document.querySelector(".contact-icons").style.transform= "translateX(-30px)";
+        document.querySelector(".contact-icons").style.transform= "translateX(-35px)";
     }
 });
+
+</script>
+
+
+
+<script>
 
 </script>
 
