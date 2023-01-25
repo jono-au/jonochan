@@ -7,12 +7,8 @@ document.addEventListener( 'DOMContentLoaded', function () {
         pauseOnHover: true,
         trimSpace: true,
         gap: '3em',
-        fixedWidth: '1100px',
-        // breakpoints: {
-        //     640: {
-        //         fixedHeight: 500,
-        //     },
-        // }
+        padding: '10rem',
+        // fixedWidth: '1100px',
 
     }     
     ).mount();

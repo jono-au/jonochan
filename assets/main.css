@@ -1,17 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300;400;500;600&display=swap');
 
-html {
-	scroll-behavior: smooth;
+
+
+.main-nav a.active,
+.main-nav a:hover {
+  color: #ffd79c!important;
 }
+
+.main-nav a {
+  color: white;
+}
+
+.parallax {
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-scroll-behavior: smooth;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
 h3 {
     font-size: 30px;
     font-weight: 500;
     letter-spacing: 2px;
     word-spacing: 5px;
 }
-.heading-txt {
-    width: 80%
-}
+
 p {
     font-size: 18px;
 }
@@ -20,12 +39,11 @@ body {
   
     font-family: "Encode Sans", sans-serif;
     margin: 0;
-    max-width: 2200px;
   }
 
-  .active {
+  /* .active {
     color:#ffd79c;
-  }
+  } */
   
   ul {
     padding-left: 0;
@@ -68,9 +86,9 @@ body {
     padding: 5px 15px;
   }
   
-  .main-navigation li:hover>a {
+  /* .main-navigation li:hover>a {
     color: #ffd79c;
-  }
+  } */
 
  
   .main-navigation {
@@ -90,7 +108,11 @@ body {
     background-color: #292c36eb;
     box-shadow: 0px 2px 5px #00000047;
     transition: background-color 300ms;
-    animation: slide-down 300ms forwards
+    animation: slide-down 300ms forwards;
+  }
+
+  img {
+    width: 100%;
   }
 
 
@@ -105,73 +127,27 @@ body {
     }
 }
 
-  
-  .row {
-    display: flex;
-    
+
+
+  #home {
+    padding-left: 0;
+    padding-right: 0;
+    background: #282c33;
+    height:100vh;
   }
 
-
-
-
-  
-  /**************** GLOBAL *****************/
-
-  
-
-  
-  /*************** About ******************/
-  .column.a {
-    flex: 50%;
-    padding: 10px;
-    height: auto;
+  a:hover {
+    text-decoration: none;
   }
 
   
   #about-me {
   background-color: #ffd79c;
-  /* padding: 100px 7%; */
   }
 
-  #jono-text{
-    padding: 100px 7% 100px 0;
-  }
-  
-  div#jono.column.a {
-    margin: none!important;
-    padding: 0!important
-  }
-  div#jono {
-   margin: 0!important;
-}
-
-img#jono-img {
-    max-height: 950px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    z-index: 2;
-    position: relative;
-    padding-top: 150px;
-}
-
-img#jono-think {
-  max-width: 600px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  position: absolute;
-  z-index: 1;
-  left: 0;
-  right: 0;
-}
 
 
-
-
-  /*************** Skills ******************/
-
-  .webmaster-heading1 {
+  #about-me .col-lg-6:nth-of-type(2) h6 {
   -webkit-text-size-adjust: 100%;
   box-sizing: inherit;
   -webkit-font-smoothing: antialiased;
@@ -191,15 +167,59 @@ img#jono-think {
   padding: 2px 15px;
   }
 
+
+  #about-me .col-lg-6:first-child img:last-child {
+    margin-top: -100px;
+  }
   
+  #about-me .col-lg-6:last-child {
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+  #about-me .col-lg-6:last-child div:first-child {
+    max-width: 450px;
+    margin: auto;
+  }
+
+  #about-me h3 {
+    margin-bottom: 1em;
+  }
+
+  .about.section .col-lg-6:first-child img:nth-of-type(2) {
+    filter: drop-shadow(0 0 0.75rem #2e2e2e5e);
+  }
+ 
 
   .skills {
     background-image: url(https://themes.muffingroup.com/be/webmaster2/wp-content/uploads/2021/02/webmaster2-section-bg2.png);
     background-repeat: no-repeat;
     background-position: top center;
-    padding: 100px 7%;
+    padding: 100px 0;
     background-color: rgb(189 189 189 / 20%);
 
+  }
+
+  .skills-txt h6 {
+    -webkit-text-size-adjust: 100%;
+    box-sizing: inherit;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    margin-bottom: 15px;
+    font-family: "Source Code Pro", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    display: inline-block;
+    background: rgba(44, 56, 98, 0.03);
+    color: #2a3d7f;
+    padding: 2px 15px;
   }
 
   .skills-wrapper {    
@@ -210,14 +230,33 @@ img#jono-think {
   }
 
 
-
-
-   /*************** Works ******************/
-  .works {
-    padding: 100px 7%;
-    background-color: rgba(0,0,0,0.03);
+  .container-fluid.skills-repeater img {
+    width: 100px;
   }
 
+  .skills-repeater .col-md-6 {
+    max-width: 500px;
+    padding-top:20px;
+    padding-bottom: 20px;
+  }
+
+  .skills-repeater .row {
+    justify-content: center;
+  }
+
+  .skills-wrapper {
+    margin-bottom: 100px;
+}
+
+.container-fluid.skills-repeater .row {
+  max-width: 1100px;
+  margin: auto;
+}
+
+  .works {
+    padding: 100px 0;
+    background-color: rgba(0,0,0,0.03);
+  }
 
   .works-wrapper{
     display: block;
@@ -226,9 +265,24 @@ img#jono-think {
     max-width: 1080px;
   }
 
-
-  .works-txt {
-    padding-bottom: 50px;
+  .works-txt h6{
+    -webkit-text-size-adjust: 100%;
+    box-sizing: inherit;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    margin-bottom: 15px;
+    font-family: "Source Code Pro", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    display: inline-block;
+    background: rgba(44, 56, 98, 0.03);
+    color: #2a3d7f;
+    padding: 2px 15px;
   }
 
   .splide {
@@ -243,6 +297,15 @@ img#jono-think {
     padding-bottom: 40px!important;
   }
 
+  .splide__arrow {
+    top: 30%!important;
+    bottom: 50%;
+    margin: auto;
+  }
+
+  .splide__slide {
+    max-width: 1150px;
+}
 
   .website-links {
     color:#3a3a3a; 
@@ -254,35 +317,43 @@ img#jono-think {
 
   }
 
-/*************** Technology  ******************/
 
 
-.tech-wrapper{
-  display: block;
-  margin: 0 auto;
-  position: relative;
-  max-width: 1080px;
+
+.image-front {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  width: 80%;
+  right: 0;
+  left: 0;
+  padding-top: 60px;
 }
 
-/* .tech {
-  background-color: #423cc1;    
-  background-image: url(https://themes.muffingroup.com/be/webmaster2/wp-content/uploads/2021/02/webmaster2-section-bg4.png);
-  background-repeat: no-repeat;
-  background-position: center top;
-  padding: 100px 0;
-} */
+.p-wrapper{
+  position:relative;
+}
+
+.tech-wrapper{
+  margin: 0 auto;
+  max-width: 1080px;
+  padding-top: 100px;
+}
 
 
 #github-button {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 15px 50px;
-    bottom: 100px;
-    position: relative;
-    /* background: #e7618b; */
-    background: #2da44e;
-    border: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  padding: 15px 50px;
+  bottom: 60px;
+  position: absolute;
+  background: #2da44e;
+  border: none;
+  max-width: 230px;
+  border-radius: 5px;
 }
 
 #github-button a {
@@ -293,13 +364,115 @@ img#jono-think {
 
 
 
-   /*************** Contact ******************/
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  overflow-y: auto; 
+}
+
+
+div#group2 h6 {
+  -webkit-text-size-adjust: 100%;
+  box-sizing: inherit;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  margin-bottom: 15px;
+  font-family: "Source Code Pro", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  display: inline-block;
+  padding: 2px 15px;
+  background: white;
+
+}
+
+div#group2 .container {
+  margin-top: 100px;
+  max-width: 1080px;
+}
+.parallax__layer.parallax__layer--base{
+  width: 70%;
+  top: 40px;
+  margin: auto;
+}
+div#splide01 {
+  z-index: 10;
+  background: white;
+}
+  .parallax {
+  height: 500px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-perspective: 300px;
+  perspective: 300px;
+  }
+
+  #group2 {
+  z-index: 3;
+}
+.parallax__group {
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+}
+
+.parallax__group {
+  height: 500px;
+  height: 100vh;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.parallax__layer--base {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  z-index: 4;
+}
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+#group2 .parallax__layer--back {
+  background: #4d0080;
+}
+
+.parallax__layer.parallax__layer--back img{
+  width: 70%;
+}
+.parallax__layer.parallax__layer--base img {
+  width: 80%;
+}
+.parallax__layer--back {
+  -webkit-transform: translateZ(-200px) scale(2);
+  transform: translateZ(-200px) scale(2);
+  z-index: 3;
+}
+.title {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+   .wrapper-contact .row {
+    justify-content: center;
+}
 
   .wrapper-contact{
-    display: block;
-    margin: 0 auto;
-    position: relative;
+    margin-bottom: 50px;
     max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .col-contact {
@@ -312,25 +485,27 @@ img#jono-think {
 
 
   .contact {
-    padding: 100px 7%;
+    padding: 100px 0;
     background-color: #292c36;
     background-image: url(https://themes.muffingroup.com/be/webmaster2/wp-content/uploads/2021/02/webmaster2-section-bg5.png);
     background-repeat: no-repeat;
     background-position: left top;
+    z-index: 10;
+    position: relative;
   }
 
 
 .contact-details {
   background-color: #2f323d;
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .column.col-contact {
     padding: 40px 50px;
 }
 
-.row.contact-details {
-    margin-top: 70px;
-}
 
 .contact-detail h4:nth-child(1) {
     color: #aef1ff;
@@ -347,6 +522,14 @@ img#jono-think {
 .contact-detail h3 {
     color: #ffd79c;
     margin: 0 0 20px 0;
+}
+
+.contact-detail h3 a {
+color: #ffd79c;
+}
+
+.contact-detail h3 a:hover {
+  color: #fece85;
 }
 
 
@@ -433,7 +616,34 @@ margin-bottom: 0;
     border-color: #dc3232;
 }
 
-/**************** Footer ****************/
+
+.contact-details .col-md-6:first-child {
+  padding: 60px 5% 10px;
+}
+
+
+.wrapper-contact h6 {
+  -webkit-text-size-adjust: 100%;
+  box-sizing: inherit;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  margin-bottom: 15px;
+  font-family: "Source Code Pro", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  display: inline-block;
+  padding: 2px 15px;
+  color: white;
+  background: rgb(255 255 255 / 2%);
+}
+
+
+
 #footer {
   background-color: #17191f;
 }
@@ -445,9 +655,6 @@ margin-bottom: 0;
 }
 
 
-
-
-/**************** MOBILE ****************/
   @media only screen and (max-width: 600px) {
   
     p {
@@ -461,49 +668,7 @@ margin-bottom: 0;
       word-spacing: 5px;
     }
 
-    .row {
-      flex-wrap: wrap;
-    }
-    
-
-    /*************** About ******************/
-    
-    .about h3.heading-txt {
-      margin-bottom: 50px;
-      }
-
-     div#jono.column.a {
-       margin: none!important;
-       /* flex:none; */
-     }
-     div#jono {
-      margin: 0!important;
-  }
-
-  img#jono-img {
-    max-height:400px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  #jono-text {
-    padding: 50px 7% 100px 7%;
-  }
-
-  img#jono-think {
-    max-width: 350px;
-  }
   
-  
-      /*************** Skills ******************/
-
-
-
-      .heading-txt {
-        width: 100%
-      }
-
       .column.a:nth-child(1) {
         margin-top: 0;
       }
@@ -512,17 +677,6 @@ margin-bottom: 0;
         margin-top: 20px!important;
       }
 
-      .skills-txt.heading-txt {
-        margin-bottom: 100px;
-    }
-    
-
-
-        /*************** Works ******************/
-
-        /* .works {
-          padding-top: 50px;
-        } */
 
         .column-toolbox, .column-language {
           width: 100%;
@@ -537,23 +691,10 @@ margin-bottom: 0;
           font-size: 1.2em;
         }
 
-        /* .column-language h2 {
-          font-size: 18px;
-          line-height: 1.5;
-        } */
-
-
-
-
-        /*************** Tech ******************/
-
         .column-language {
           padding-bottom: 50px;
       }
 
-        
-              
-        /*************** Contact ******************/
 
         .col-contact, .col-contact2 {
           width: 100%;
@@ -563,37 +704,13 @@ margin-bottom: 0;
           padding: 40px 5% 0;
         }
 
-
-        /*************** Footer ******************/
         #footer p {padding: 30px 0;}
 
     
 
   }
   
-  
 
-
-  /**************** LG MOBILE ****************/
-  @media only screen and (min-width: 600px) {
-
-    /*************** About ******************/
-    .row {
-      flex-wrap: wrap;
-    }
-
-
-      /*************** Service ******************/
-
-        /*************** Works ******************/
-
-        /*************** Contact ******************/
-    
-
-  }
-
-
-/*************** Navigation mobile/tablet ******************/
   @media only screen and (max-width: 991px) {
     .menu-main-container {
       width: auto;
@@ -652,60 +769,41 @@ margin-bottom: 0;
     
 
     .nav-ico {
-      float: right;
+    display: flex;
+    justify-content: end;
+    height: 100%;
+    align-items: center;
+    margin-right: 20px;
+      
     }
 
     .nav-ico img {
-      height: 45px;
-      padding: 10px 20px;
+      height: 30px;
+      width: 30px;
     }
+
+    .skills-repeater img {
+      width: 100px;
+    }
+    
+
+ 
 
 
   }
-/*************** Navigation mobile/tablet ******************/
+
   @media only screen and (min-width: 992px) {
     .nav-ico {
       display: none;
     }
+    
+       ul#menu-main {
+        display: flex;
+        justify-content: center;
+    }
   }
 
-
-  /**************** TABLET ****************/
   @media only screen and (min-width: 768px) {
-    
-
-    .row {
-      flex-wrap: wrap;
-    }
-
-    .heading-txt {
-      width: 85%;
-    }
-
-
-    /*************** About ******************/
-
-    /* .about-txt {
-      margin-top: 100px;
-  }
-
-    .about-txt h3 {
-      padding-bottom: 80px;
-    } */
-
-    #jono-text {
-      padding: 100px 7%;
-  }
-
-  img#jono-img {
-    max-height: 800px;
-  }
-    
-  .about h3.heading-txt {
-    margin-bottom: 50px;
-}
-
-      /*************** Service ******************/
 
 
       .column.a:nth-child(1) {
@@ -716,114 +814,31 @@ margin-bottom: 0;
         margin-top: 20px!important;
       }
 
-      .skills-txt.heading-txt {
-        margin-bottom: 100px;
-    }
-
-      /*************** Tech ********************/
       .column-language {
         padding-left: 0;
     }
-
-    .flex-grid .col {
-      width: 70px;
-      height: 90px;
-      margin: 10px 0px;
-    }
-        /*************** Works ******************/
-
-        /*************** Contact ******************/
 
         .col-contact, .col-contact2 {
           width: 100%
         }
 
-        .form-wrapper {
-          padding: 0px 5% 10px;
-        }
-
-  }
-
-
-
-
-/**************** LAPTOP ****************/
-  @media only screen and (min-width: 992px) {
-
-
-    .row {
-      flex-wrap: nowrap;
-    }
-
-
-    /*************** About ******************/
-
-   
-  
-
-    .about-txt .heading-txt{
-      width:100%;
-    }
-
-    .about-txt h3 {
-      padding-bottom: 30px;
-    }
-   
-
-      /*************** Service ******************/
-
-      /* .column.a:nth-child(1) {
-        margin-top: 100px!important;
-      } */
-
-
-      /*************** Tech ********************/
-
-      .flex-grid .col {
-        width: 80px;
-        height: 100px;
-        margin: 10px 0px;
-    }
-
-        /*************** Works ******************/
-
-        /*************** Contact ******************/
-
-        .form-wrapper {
-          padding: 60px 50px 5% 0;
-        }
-
-  }
-
-
-  /**************** DESKTOP ****************/
-  @media only screen and (min-width: 1200px) {
-    /*************** About ******************/
-    .row {
-      flex-wrap: nowrap;
-    }
-
-      /*************** Service ******************/
-
-      .flex-grid .col {
-        width: 90px;
-        height: 110px;
-        margin: 10px 10px;
-        box-shadow: 10px 8px #00000038;
-        border-radius: 5px;
       
-        
-      }
-
-        /*************** Works ******************/
-
-        /*************** Tech ********************/
-
-        /*************** Contact ******************/
 
   }
 
+  @media screen and (min-width: 1200px) {
+  /* .container-fluid.about.section {
+    max-width: 1080px;
+  } */
+}
 
+@media screen and (max-width: 767px) {
+  div#splide01-track {
+    padding-left: 3rem!important;
+    padding-right: 3rem!important;
+  }
 
-
- 
+  .splide h1 {
+    font-size: 1.5rem;
+  }
+}
