@@ -90,10 +90,10 @@
     </a>
 </div>
 
-<div class="container-fluid hero panel top" data-color="black" id="home" style="background:url(/wp-content/uploads/2023/01/hero-bg-scaled.webp)">
-</div>
+<section class="container-fluid hero panel top" data-color="black" id="home" style="background:url(/wp-content/uploads/2023/01/hero-bg-scaled.webp)">
+</section>
 
-<div class="container-fluid top-content" style="position:absolute;top:7%;">
+<section class="container-fluid top-content" style="position:absolute;top:7%;">
     <div class="row">
         <div class="col">
         <div class = "containertext">
@@ -105,13 +105,24 @@
         </div>
         </div>
     </div>
-</div>
+</section>
 
-<div class="container-fluid panel" data-color="orange" id="aboutme" style="height:100vh;">
+<section class="container-fluid panel" data-color="orange" id="aboutme">
     <div class="row">
             <div class="col-md-6"> 
+                <div class="svg-animate"> 
+                        <svg id="image-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 556.38 460.93">
+                            <defs>
+                                <style>.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:5px;}</style>
+                            </defs>
+                            <g id="Layer_2-2">
+                                <path class="cls-1" d="m180.7,457.59s-112,18-159-113,0-227,58-279,239-95,326-31,152,95,148,181-86,194-126,211"/>
+                            </g>
+                        </svg>
+                </div>
                 <img src="/wp-content/uploads/2023/01/jono-min.png" alt="jono">
             </div>
+
             <div class="col-md-6">
                 <div class="txtcontent">
                     <div class="content">
@@ -124,30 +135,108 @@
                         </h1>
                     </div>
                     <p>
-                        I started creating sites just for fun back in 2016. Ever since then I've never stopped learning new languages and programming skills.
-                        I enjoy working with different technologies across both frontend and backend development. 
-                        I'm a creative problem solver able to take complex ideas and use technology to solve user and business needs.
+                    <span style="font-weight:700">I'm a creative problem solver able to take complex ideas and use technology to solve user and business needs.</span>
+                    <br><br>
+                        I started out as a graphic designer back at uni and quickly progressed into web design. I've been creating websites since 2016 and
+                        never stopped learning new technologies and programming skills across both frontend & backend development. I have a Masters in Computer Science from Queensland University of Technology.
                     </p>
+
                 </div>
             </div>
     </div>
-</div>
+</section>
 
-<div class="container-fluid panel" data-color="indigo" id="technology" style="height:100vh;">
+<section class="container-fluid panel" data-color="green" id="skills">
     <div class="row">
-        <div class="col"></div>
+        <div class="col-md-6">
+            <div class="content">
+                        <h1 class="ml9">
+                            <span class="text-wrapper">
+                                <span class="letters">
+                                    What I Do?
+                                </span>
+                            </span>
+                        </h1>
+
+                        <h3>I design and code beautiful websites.</h3>
+                        
+                        <div class="what">
+                            <div>
+                                <img src="/wp-content/uploads/2023/01/paintbrush-icon.png" alt="design">
+                                <p>Following your creative and technical brief I'll design the perfect UI/UX that satisfies both user and business needs. I’ll design a responsive website that looks and works great on all devices.</p>
+                            </div>
+                            <div>
+                                <img src="/wp-content/uploads/2023/01/code-icon.png" alt="code">
+                                <p>Let's start coding and integrating custom templates and functionality. I code to the highest standards following best practices, producing clean simple code. Your website goes through rigorous testing to ensure it’s of the highest quality with W3C validation.</p>       
+                            </div>
+                            <div>
+                                <img src="/wp-content/uploads/2023/01/cloud-icon.png" alt="cloud">
+                                <p>I can architect your servers and deploy an optimised solution for your website. Your website will be secure, fast and handle any amount of traffic. I have experience with WHM, cPanel, plesk, linux, apache, VPS and Cloud Servers.</p>
+                            </div>
+                            <div>
+                                <img src="/wp-content/uploads/2023/01/support-icon.png" alt="support">
+                                <p>Your site will receive continued support. I'll service your website and keep it up to date with scheduled maintenance and software updates. I can take care of your Content Management, SEO, SEM, DNS and Google Analytics. Should you have any questions you can contact me anytime on mobile, video call or email. </p>
+                            </div>
+                        </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <img src="" alt="jono">
+        </div>
     </div>
-</div>
+</section>
 
 
 
-<div class="container-fluid designer-websites panel" data-color="pink" id="projects">
+
+<section class="container-fluid panel" data-color="indigo" id="technology">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="" alt="">
+        </div>
+        <div class="col-md-6">
+            <div class="txtcontent">
+                <div class="content">
+                    <h1 class="ml10">
+                        <span class="text-wrapper">
+                            <span class="letters">
+                                Let's talk Technology
+                            </span>
+                        </span>
+                    </h1>
+                    <div id="google-code">
+                        <span>0110</span>
+                        <span>11</span>
+                        <span>01 011</span>
+                        <span>011</span>
+                        <span>11 0</span>
+                        <span>11011</span>
+                        <span>10 0110</span>
+                        <span>01</span>
+                        <span>01 0</span>
+                        <span>111</span>
+                        <span>1001</span>
+                    </div>
+                         
+
+                    <p>Here's come of my favorite technologies I work with daily. <br> Frontend, Backend, Version Control, Servers, Design Tools, Love it All.</p>   
+                    <div class="brands">
+                        <img src="" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="container-fluid designer-websites panel" data-color="pink" id="projects" >
     <div class="container">
 
         <div class="row">
-            <div class="col-md-6">
-                <p>Focus on Business. I'll take care of your websites.</p>
-            </div>
+
             <div class="col-md-6">
                 <div class="txtcontent">
                     <div class="content">
@@ -162,10 +251,14 @@
                     </div>
                 </div>
             </div>
+            <div class="col-md-6">
+                <p>Focus on Business. I'll take care of your websites.</p>
+            </div>
+         
         </div>
 
     </div>
-</div>
+</section>
 
 <div class="splider">
     <!-- <div class="row"> -->
@@ -213,42 +306,11 @@
 
 
 <div class="container-fluid" style="background:#c09e6a; height: 50px;"></div>
-<div class="container-fluid" style="background:white; height: 200px;"></div>
+<!-- <div class="container-fluid" style="background:white; height: 200px;"></div> -->
 
-
-
-<div class="container-fluid contact" id="contact" style="background-color: white;">
+<section class="container-fluid contact" id="contact">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6">
-                <div class="txtcontent">
-                    <div class="content">
-                        <h1 class="ml8">
-                            <span class="text-wrapper">
-                                <span class="letters">
-                                    You Have Big Plans. I'm Here To Help.
-                                </span>
-                            </span>
-                        </h1>
-
-                            <div class="row">
-                                <div class="contact-details">
-                                    <div class="bus">
-                                        <h3>Available</h3>
-                                        <p>Monday to Sunday
-                                        <br>6am to 6pm AEST
-                                        </p>
-                                    </div>
-                                    <div class="loc">
-                                        <h3>Location</h3>
-                                        <p>Brisbane City 4000
-                                        <br>Queensland, Australia</p>
-                                    </div>
-                                </div>
-                            </div>
-                    </div>
-                </div>
-            </div>
             <div class="col-lg-6 contact-form">
                 <h3>Feel free to contact me</h3>
                 <div class="contact-info">
@@ -325,8 +387,39 @@
                 </div>
                 <?php echo do_shortcode('[contact-form-7 id="62" title="Contact form 1"]');?>
             </div>
+            <div class="col-lg-6">
+                <div class="txtcontent">
+                    <div class="content">
+                        <h1 class="ml8">
+                            <span class="text-wrapper">
+                                <span class="letters">
+                                    Let's Work Together
+                                </span>
+                            </span>
+                        </h1>
+
+                            <div class="row">
+                                <h3>You've got <span style="color:#c09e6a">big plans.</span> <br>Im here to help.</h3>
+                                <div class="contact-details">
+                                    <div class="bus">
+                                        <h3>Available</h3>
+                                        <p>Monday to Sunday
+                                        <br>6am to 6pm AEST
+                                        </p>
+                                    </div>
+                                    <div class="loc">
+                                        <h3>Location</h3>
+                                        <p>Brisbane City 4000
+                                        <br>Queensland, Australia</p>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+ 
         </div>
     </div>
-</div>
+</section>
 
 <?php get_footer(); ?>

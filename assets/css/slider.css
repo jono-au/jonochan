@@ -54,3 +54,7 @@ div#splide01 {
 .splide__arrow.splide__arrow--prev, .splide__arrow.splide__arrow--next {
     display: none;
 }
+
+.splide__track {
+  z-index: 1!important;
+}
