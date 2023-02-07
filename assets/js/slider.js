@@ -1,5 +1,4 @@
 document.addEventListener( 'DOMContentLoaded', function () {
-    // new Splide( '.splide' ).mount();
     new Splide( '.splide', {
         type   : 'loop',
         focus  : 'center',
@@ -7,14 +6,9 @@ document.addEventListener( 'DOMContentLoaded', function () {
         pauseOnHover: true,
         trimSpace: true,
         gap: '3em',
-        padding: '10rem',
-        // fixedWidth: '1100px',
-
+        // padding: '10rem',
     }     
     ).mount();
     
 } );
-
-//check screen size 
-//swap images
 

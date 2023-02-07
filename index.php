@@ -2,52 +2,39 @@
 
 <div class="contact-icons">
     <a href="tel:+61421238196">
-                        <svg version="1.1" id="Layer_2_00000066506409452005454220000007952151538854721684_"
-                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 542 541.5"
-                                style="enable-background:new 0 0 542 541.5;" xml:space="preserve">
-                            <style type="text/css">
-                                .st0{fill:#FFFFFF;}
-                            </style>
-                            <g id="phone">
-                                <g id="pVxSui.tif">
-                                    <g>
-                                        <g>
-                                            <path class="st0" d="M91.7,197.5c0-27.7,0-55.3,0-83c111.3,0,222.6,0,333.8,0c0,111.1,0,222.1,0,333.2c-111.3,0-222.6,0-333.8,0
-                                                c0-79.9,0-159.9,0-239.8c11.7,72.3,62.4,133.2,117.5,178.7c24.8,20.4,52.1,38,82.2,49.6c15.4,6,31.8,10.5,48.5,9.6
-                                                c16.4-0.8,26-10.5,36.7-22c11.4-12.3,21-27.3,11.2-43.7c-7.5-12.6-20.3-22.6-32.8-29.7c-12.5-7-25.8-12.2-39-4.1
-                                                c-13.5,8.2-19.3,25.3-37.4,19.1c-15.1-5.1-28.6-17.2-40.4-27.6c-12.6-11.2-24.7-23.1-36.1-35.5c-11.3-12.3-21.7-25.4-28.5-40.7
-                                                c-7.9-17.9,7.7-23.7,16.7-37c16.6-24.4-11.5-59.8-32.1-72.7c-15.3-9.6-29.4-3-41.5,8.2C104.5,171.6,94.8,180.6,91.7,197.5z
-                                                M257.5,114.9c-4.8,0.3-9.7,0.4-14.5,0.9c-23.2,2.2-20.8,35,2.5,34.4c12.6-0.3,24.2-1.3,36.6,2.2c10.7,3,21.1,8,30.8,13.6
-                                                c31.9,18.2,58,48.2,70.8,82.8c4.1,11.1,6,23,5.5,34.8c-0.4,8.8-2.6,18.4,5.2,24.8c6.9,5.7,17.6,4.9,23.6-1.7
-                                                c6.7-7.5,5.9-19.8,5.6-29.1C421.4,196,339.3,115.2,257.5,114.9z M262.3,178.6c-11.8,0.2-18.7,5.7-20.1,14.2
-                                                c-1.4,8.5,3.4,16.6,11.7,19.3c2.2,0.7,4.6,1.2,6.9,1.7c29.5,6.7,49.4,24.5,60.6,52.2c2.3,5.7,3.1,12.1,4.9,18.1
-                                                c2.7,9.2,11.5,14.2,20.8,11.9c8.6-2.1,14.3-10.9,12.6-19.9c-1.1-5.8-2.3-11.7-4.2-17.3c-13-37.5-38.3-62.9-75.9-75.8
-                                                C273.2,180.8,266.5,179.7,262.3,178.6z"/>
-                                            <path d="M91.7,197.5c3.1-16.9,12.8-25.9,25.1-37.4c12.1-11.3,26.2-17.8,41.5-8.2c20.6,12.9,48.8,48.3,32.1,72.7
-                                                c-9,13.3-24.6,19.1-16.7,37c6.7,15.3,17.2,28.5,28.5,40.7c11.4,12.4,23.5,24.4,36.1,35.5c11.8,10.4,25.2,22.5,40.4,27.6
-                                                c18.1,6.1,23.9-10.9,37.4-19.1c13.3-8.1,26.6-3,39,4.1c12.6,7.1,25.3,17.1,32.8,29.7c9.7,16.4,0.1,31.4-11.2,43.7
-                                                c-10.6,11.5-20.3,21.2-36.7,22c-16.7,0.8-33.1-3.7-48.5-9.6c-30.1-11.6-57.4-29.2-82.2-49.6c-55.1-45.4-105.9-106.4-117.5-178.7
-                                                C91.7,204.4,91.7,201,91.7,197.5z"/>
-                                            <path d="M257.5,114.9c81.7,0.2,163.9,81,166,162.7c0.2,9.3,1.1,21.6-5.6,29.1c-6,6.6-16.7,7.4-23.6,1.7
-                                                c-7.8-6.4-5.6-16-5.2-24.8c0.5-11.8-1.4-23.7-5.5-34.8c-12.8-34.6-38.9-64.6-70.8-82.8c-9.7-5.5-20-10.5-30.8-13.6
-                                                c-12.4-3.5-24-2.5-36.6-2.2c-23.3,0.5-25.7-32.2-2.5-34.4C247.8,115.4,252.7,115.2,257.5,114.9z"/>
-                                            <path d="M262.3,178.6c4.2,1,10.9,2.2,17.3,4.4c37.5,13,62.9,38.3,75.9,75.8c1.9,5.6,3.1,11.5,4.2,17.3c1.7,9-4,17.8-12.6,19.9
-                                                c-9.2,2.3-18-2.7-20.8-11.9c-1.8-6-2.6-12.3-4.9-18.1c-11.2-27.7-31.1-45.5-60.6-52.2c-2.3-0.5-4.7-0.9-6.9-1.7
-                                                c-8.3-2.7-13.1-10.8-11.7-19.3C243.7,184.3,250.6,178.8,262.3,178.6z"/>
-                                        </g>
-                                    </g>
-                                </g>
-                            </g>
-                            <g id="circle">
-                                <g>
-                                    <path d="M271,539.7c-71.9,0-139.5-28-190.3-78.7C29.8,410.1,1.8,342.5,1.8,270.8s28-139.4,78.8-190.2
-                                        C131.5,29.8,199.1,1.8,271,1.8s139.5,28,190.3,78.7s78.8,118.3,78.8,190.1s-28,139.4-78.8,190.1
-                                        C410.5,511.7,342.9,539.7,271,539.7z M271,35.3c-62.9,0-122.1,24.5-166.7,69s-69,103.6-69,166.5c0,62.8,24.5,122,69,166.5
-                                        c44.5,44.4,103.6,69,166.7,69s122.1-24.5,166.7-69s69-103.6,69-166.5c0-62.8-24.5-122-69-166.5C393.1,59.9,333.9,35.3,271,35.3z"
-                                        />
-                                </g>
-                            </g>
-                        </svg>
+        <svg version="1.1" id="Layer_2_00000066506409452005454220000007952151538854721684_"
+                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 542 541.5"
+                style="enable-background:new 0 0 542 541.5;" xml:space="preserve">
+            <g id="phone">
+                <g id="pVxSui.tif">
+                    <g>
+                        <g>
+                            <path d="M91.7,197.5c3.1-16.9,12.8-25.9,25.1-37.4c12.1-11.3,26.2-17.8,41.5-8.2c20.6,12.9,48.8,48.3,32.1,72.7
+                                c-9,13.3-24.6,19.1-16.7,37c6.7,15.3,17.2,28.5,28.5,40.7c11.4,12.4,23.5,24.4,36.1,35.5c11.8,10.4,25.2,22.5,40.4,27.6
+                                c18.1,6.1,23.9-10.9,37.4-19.1c13.3-8.1,26.6-3,39,4.1c12.6,7.1,25.3,17.1,32.8,29.7c9.7,16.4,0.1,31.4-11.2,43.7
+                                c-10.6,11.5-20.3,21.2-36.7,22c-16.7,0.8-33.1-3.7-48.5-9.6c-30.1-11.6-57.4-29.2-82.2-49.6c-55.1-45.4-105.9-106.4-117.5-178.7
+                                C91.7,204.4,91.7,201,91.7,197.5z"/>
+                            <path d="M257.5,114.9c81.7,0.2,163.9,81,166,162.7c0.2,9.3,1.1,21.6-5.6,29.1c-6,6.6-16.7,7.4-23.6,1.7
+                                c-7.8-6.4-5.6-16-5.2-24.8c0.5-11.8-1.4-23.7-5.5-34.8c-12.8-34.6-38.9-64.6-70.8-82.8c-9.7-5.5-20-10.5-30.8-13.6
+                                c-12.4-3.5-24-2.5-36.6-2.2c-23.3,0.5-25.7-32.2-2.5-34.4C247.8,115.4,252.7,115.2,257.5,114.9z"/>
+                            <path d="M262.3,178.6c4.2,1,10.9,2.2,17.3,4.4c37.5,13,62.9,38.3,75.9,75.8c1.9,5.6,3.1,11.5,4.2,17.3c1.7,9-4,17.8-12.6,19.9
+                                c-9.2,2.3-18-2.7-20.8-11.9c-1.8-6-2.6-12.3-4.9-18.1c-11.2-27.7-31.1-45.5-60.6-52.2c-2.3-0.5-4.7-0.9-6.9-1.7
+                                c-8.3-2.7-13.1-10.8-11.7-19.3C243.7,184.3,250.6,178.8,262.3,178.6z"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="circle">
+                <g>
+                    <path d="M271,539.7c-71.9,0-139.5-28-190.3-78.7C29.8,410.1,1.8,342.5,1.8,270.8s28-139.4,78.8-190.2
+                        C131.5,29.8,199.1,1.8,271,1.8s139.5,28,190.3,78.7s78.8,118.3,78.8,190.1s-28,139.4-78.8,190.1
+                        C410.5,511.7,342.9,539.7,271,539.7z M271,35.3c-62.9,0-122.1,24.5-166.7,69s-69,103.6-69,166.5c0,62.8,24.5,122,69,166.5
+                        c44.5,44.4,103.6,69,166.7,69s122.1-24.5,166.7-69s69-103.6,69-166.5c0-62.8-24.5-122-69-166.5C393.1,59.9,333.9,35.3,271,35.3z"
+                        />
+                </g>
+            </g>
+        </svg>
+
     </a>   
     <a href="https://meet.google.com/zvd-vaeg-swx">            
                         <svg version="1.1" id="Layer_2_00000153669093409830882580000014510441326513207975_"
@@ -93,7 +80,7 @@
 <section class="container-fluid hero panel top" data-color="black" id="home" style="background:url(/wp-content/uploads/2023/01/hero-bg-scaled.webp)">
 </section>
 
-<section class="container-fluid top-content" style="position:absolute;top:7%;">
+<section class="container-fluid top-content">
     <div class="row">
         <div class="col">
         <div class = "containertext">
@@ -108,81 +95,81 @@
 </section>
 
 <section class="container-fluid panel" data-color="orange" id="aboutme">
-    <div class="row">
-            <div class="col-md-6"> 
-                <div class="svg-animate"> 
-                        <svg id="image-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 556.38 460.93">
-                            <defs>
-                                <style>.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:5px;}</style>
-                            </defs>
-                            <g id="Layer_2-2">
-                                <path class="cls-1" d="m180.7,457.59s-112,18-159-113,0-227,58-279,239-95,326-31,152,95,148,181-86,194-126,211"/>
-                            </g>
-                        </svg>
-                </div>
-                <img src="/wp-content/uploads/2023/01/jono-min.png" alt="jono">
-            </div>
-
-            <div class="col-md-6">
-                <div class="txtcontent">
-                    <div class="content">
-                        <h1 class="ml6">
-                            <span class="text-wrapper">
-                                <span class="letters">
-                                    I love Websites
+    <div class="container">
+        <div class="row">
+            
+                <div class="col-lg-6">
+                    <div class="txtcontent">
+                        <div class="content">
+                            <h1 class="ml6">
+                                <span class="text-wrapper">
+                                    <span class="letters">
+                                        Hello World
+                                    </span>
                                 </span>
-                            </span>
-                        </h1>
-                    </div>
-                    <p>
-                    <span style="font-weight:700">I'm a creative problem solver able to take complex ideas and use technology to solve user and business needs.</span>
-                    <br><br>
-                        I started out as a graphic designer back at uni and quickly progressed into web design. I've been creating websites since 2016 and
-                        never stopped learning new technologies and programming skills across both frontend & backend development. I have a Masters in Computer Science from Queensland University of Technology.
-                    </p>
+                            </h1>
+                        </div>
+                        <p>
+                        <span style="font-weight:700">I'm a creative problem solver able to take complex ideas and use technology to solve user and business needs.</span>
+                        <br><br>
+                            Starting out as a graphic designer back in university I naturally progressed into web design. I've been creating websites since 2016 and
+                            never stopped learning new technologies and programming skills across both frontend & backend development. I enjoy working with talented designers, developers, marketers, entrepreneurs and would love to work with you.
+                        </p>
 
+                    </div>
                 </div>
-            </div>
+
+                <div class="col-lg-6">   
+                    <img src="/wp-content/uploads/2023/02/about-me.png" alt="jono">
+                </div>
+
+        </div>
     </div>
 </section>
 
 <section class="container-fluid panel" data-color="green" id="skills">
-    <div class="row">
-        <div class="col-md-6">
-            <div class="content">
-                        <h1 class="ml9">
-                            <span class="text-wrapper">
-                                <span class="letters">
-                                    What I Do?
-                                </span>
-                            </span>
-                        </h1>
+    <div class="container">
+        <div class="row">
 
-                        <h3>I design and code beautiful websites.</h3>
-                        
-                        <div class="what">
-                            <div>
-                                <img src="/wp-content/uploads/2023/01/paintbrush-icon.png" alt="design">
-                                <p>Following your creative and technical brief I'll design the perfect UI/UX that satisfies both user and business needs. I’ll design a responsive website that looks and works great on all devices.</p>
-                            </div>
-                            <div>
-                                <img src="/wp-content/uploads/2023/01/code-icon.png" alt="code">
-                                <p>Let's start coding and integrating custom templates and functionality. I code to the highest standards following best practices, producing clean simple code. Your website goes through rigorous testing to ensure it’s of the highest quality with W3C validation.</p>       
-                            </div>
-                            <div>
-                                <img src="/wp-content/uploads/2023/01/cloud-icon.png" alt="cloud">
-                                <p>I can architect your servers and deploy an optimised solution for your website. Your website will be secure, fast and handle any amount of traffic. I have experience with WHM, cPanel, plesk, linux, apache, VPS and Cloud Servers.</p>
-                            </div>
-                            <div>
-                                <img src="/wp-content/uploads/2023/01/support-icon.png" alt="support">
-                                <p>Your site will receive continued support. I'll service your website and keep it up to date with scheduled maintenance and software updates. I can take care of your Content Management, SEO, SEM, DNS and Google Analytics. Should you have any questions you can contact me anytime on mobile, video call or email. </p>
-                            </div>
-                        </div>
+            <div class="col-lg-6">
+                <img src="/wp-content/uploads/2023/02/mac-1.png" alt="jono">
             </div>
-        </div>
 
-        <div class="col-md-6">
-            <img src="" alt="jono">
+            <div class="col-lg-6">
+                <div class="txtcontent"> 
+                    <div class="content">
+                                <h1 class="ml9">
+                                    <span class="text-wrapper">
+                                        <span class="letters">
+                                            What I Do?
+                                        </span>
+                                    </span>
+                                </h1>
+
+                                <h3>I design and code beautiful websites.</h3>
+                                
+                                <div class="what">
+                                    <div>
+                                        <img src="/wp-content/uploads/2023/02/paintbrush-icon.gif" alt="design">
+                                        <p>Following your creative and technical brief I'll design the perfect UI/UX that satisfies both user and business needs. Your website will look and work great on all devices.</p>
+                                    </div>
+                                    <div>
+                                        <img src="/wp-content/uploads/2023/02/code-icon.gif" alt="code">
+                                        <p>Let's start coding and integrating custom templates and functionality. I code to the highest standards following best practices, producing clean simple code.</p>       
+                                    </div>
+                                    <div>
+                                        <img src="/wp-content/uploads/2023/02/cloud-icon.gif" alt="cloud">
+                                        <p>I'll architect your servers and deploy an optimised solution for your website. I know my way around WHM, cPanel, Plesk, Linux, Apache, VPS and Cloud Servers.</p>
+                                    </div>
+                                    <div>
+                                        <img src="/wp-content/uploads/2023/02/support-icon.gif" alt="support">
+                                        <p>Your new website is just the beginning. I'll continue to support you with updates and software upgrades. Contact me anytime on mobile, video call or email. </p>
+                                    </div>
+                                </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 </section>
@@ -191,43 +178,51 @@
 
 
 <section class="container-fluid panel" data-color="indigo" id="technology">
-    <div class="row">
-        <div class="col-md-6">
-            <img src="" alt="">
-        </div>
-        <div class="col-md-6">
-            <div class="txtcontent">
-                <div class="content">
-                    <h1 class="ml10">
-                        <span class="text-wrapper">
-                            <span class="letters">
-                                Let's talk Technology
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-lg-6">
+                <div class="txtcontent">
+                    <div class="content">
+                        <h1 class="ml10">
+                            <span class="text-wrapper">
+                                <span class="letters">
+                                    Let's talk Technology
+                                </span>
                             </span>
-                        </span>
-                    </h1>
-                    <div id="google-code">
-                        <span>0110</span>
-                        <span>11</span>
-                        <span>01 011</span>
-                        <span>011</span>
-                        <span>11 0</span>
-                        <span>11011</span>
-                        <span>10 0110</span>
-                        <span>01</span>
-                        <span>01 0</span>
-                        <span>111</span>
-                        <span>1001</span>
-                    </div>
-                         
+                        </h1>
+                        <div id="google-code">
+                            <span>0110</span>
+                            <span>11</span>
+                            <span>01 011</span>
+                            <span>011</span>
+                            <span>11 0</span>
+                            <span>11011</span>
+                            <span>10 0110</span>
+                            <span>01</span>
+                            <span>01 0</span>
+                            <span>111</span>
+                            <span>1001</span>
+                        </div>
+                            
 
-                    <p>Here's come of my favorite technologies I work with daily. <br> Frontend, Backend, Version Control, Servers, Design Tools, Love it All.</p>   
-                    <div class="brands">
-                        <img src="" alt="">
+                        <p>Here are some of my favorite technologies I work with daily. Frontend, Backend, Version Control, Servers & Design Tools.</p>   
+                        <div class="brands">
+                            <img src="/wp-content/uploads/2023/02/tech-favorites.png" alt="tech">
+                        </div>
+                    
                     </div>
                 </div>
             </div>
+
+            <div class="col-lg-6">
+                <img src="/wp-content/uploads/2023/02/microchip.png" alt="jono">
+            </div>
+
         </div>
     </div>
+
+    <div class="slideshow"><div class="images"></div></div>
 </section>
 
 
@@ -237,7 +232,11 @@
 
         <div class="row">
 
-            <div class="col-md-6">
+            <div class="col-lg-6">
+                <p>Projects I've had the pleasure working on.</p>
+            </div>
+
+            <div class="col-lg-6">
                 <div class="txtcontent">
                     <div class="content">
                         <h1 class="ml7">
@@ -247,14 +246,11 @@
                                 </span>
                             </span>
                         </h1>
-                        <a href="/shop-2" class="btn-ed btn-designer-websites"> See More </a>
+                        <!-- <a href="/shop-2" class="btn-ed btn-designer-websites"> See More </a> -->
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
-                <p>Focus on Business. I'll take care of your websites.</p>
-            </div>
-         
+
         </div>
 
     </div>
@@ -270,8 +266,8 @@
 
                         <li class="splide__slide">
                             <picture>
-                                <source srcset="/wp-content/uploads/2023/01/slider-hb-mobile.jpg" media="(max-width: 500px)" />
-                                <source srcset="/wp-content/uploads/2023/01/slider-hb-tablet.jpg" media="(max-width: 950px)" />
+                                <source srcset="/wp-content/uploads/2023/01/slider-hb-mobile.jpg" media="(max-width: 600px)" />
+                                <source srcset="/wp-content/uploads/2023/01/slider-hb-tablet.jpg" media="(max-width: 1024px)" />
                                 <img src="/wp-content/uploads/2023/01/slider-hb.jpg" alt="humminbird" style="padding-bottom:50px;"/>
                             </picture>
               
@@ -280,8 +276,8 @@
                        
                         <li class="splide__slide">
                             <picture>
-                                <source srcset="/wp-content/uploads/2023/01/slider-mk-mobile.jpg" media="(max-width: 500px)" />
-                                <source srcset="/wp-content/uploads/2023/01/img/slider-mk-tablet.jpg" media="(max-width: 950px)" />
+                                <source srcset="/wp-content/uploads/2023/01/slider-mk-mobile.jpg" media="(max-width: 600px)" />
+                                <source srcset="/wp-content/uploads/2023/01/slider-mk-tablet.jpg" media="(max-width: 1024px)" />
                                 <img src="/wp-content/uploads/2023/01/slider-mk.jpg" alt="minnkota" style="padding-bottom:50px;"/>
                             </picture>
                             <h1><a href="#" target="_blank" class="website-links"></a></h1>
@@ -289,8 +285,8 @@
 
                         <li class="splide__slide">
                             <picture>
-                                <source srcset="/wp-content/uploads/2023/01/slider-bla-mobile.jpg" media="(max-width: 500px)" />
-                                <source srcset="/wp-content/uploads/2023/01/slider-bla-tablet.jpg" media="(max-width: 950px)" />
+                                <source srcset="/wp-content/uploads/2023/01/slider-bla-mobile.jpg" media="(max-width: 600px)" />
+                                <source srcset="/wp-content/uploads/2023/01/slider-bla-tablet.jpg" media="(max-width: 1024px)" />
                                 <img src="/wp-content/uploads/2023/01/slider-bla.jpg" alt="bla" style="padding-bottom:50px;"/>
                             </picture>
                             <h1><a href="#" target="_blank" class="website-links"></a></h1>
@@ -306,60 +302,78 @@
 
 
 <div class="container-fluid" style="background:#c09e6a; height: 50px;"></div>
-<!-- <div class="container-fluid" style="background:white; height: 200px;"></div> -->
 
 <section class="container-fluid contact" id="contact">
     <div class="container">
         <div class="row">
+            
+            <div class="col-lg-6">
+                <div class="txtcontent">
+                    <div class="content">
+                        <h1 class="ml8">
+                            <span class="text-wrapper">
+                                <span class="letters">
+                                    Let's Work Together
+                                </span>
+                            </span>
+                        </h1>
+
+                            <div class="row">
+                                <h3>You've got <span style="color:#c09e6a">big plans.</span> <br>I'm here to help.</h3>
+                                <div class="contact-details">
+                                    <div class="bus">
+                                        <h3>Available</h3>
+                                        <p>Monday to Sunday
+                                        <br>6am to 6pm AEST
+                                        </p>
+                                    </div>
+                                    <div class="loc">
+                                        <h3>Location</h3>
+                                        <p>Brisbane City 4000
+                                        <br>Queensland, Australia</p>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="col-lg-6 contact-form">
                 <h3>Feel free to contact me</h3>
                 <div class="contact-info">
-                        <svg version="1.1" id="Layer_2_00000066506409452005454220000007952151538854721684_"
-                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 542 541.5"
-                                style="enable-background:new 0 0 542 541.5;" xml:space="preserve">
-                            <style type="text/css">
-                                .st0{fill:#FFFFFF;}
-                            </style>
-                            <g id="phone">
-                                <g id="pVxSui.tif">
-                                    <g>
-                                        <g>
-                                            <path class="st0" d="M91.7,197.5c0-27.7,0-55.3,0-83c111.3,0,222.6,0,333.8,0c0,111.1,0,222.1,0,333.2c-111.3,0-222.6,0-333.8,0
-                                                c0-79.9,0-159.9,0-239.8c11.7,72.3,62.4,133.2,117.5,178.7c24.8,20.4,52.1,38,82.2,49.6c15.4,6,31.8,10.5,48.5,9.6
-                                                c16.4-0.8,26-10.5,36.7-22c11.4-12.3,21-27.3,11.2-43.7c-7.5-12.6-20.3-22.6-32.8-29.7c-12.5-7-25.8-12.2-39-4.1
-                                                c-13.5,8.2-19.3,25.3-37.4,19.1c-15.1-5.1-28.6-17.2-40.4-27.6c-12.6-11.2-24.7-23.1-36.1-35.5c-11.3-12.3-21.7-25.4-28.5-40.7
-                                                c-7.9-17.9,7.7-23.7,16.7-37c16.6-24.4-11.5-59.8-32.1-72.7c-15.3-9.6-29.4-3-41.5,8.2C104.5,171.6,94.8,180.6,91.7,197.5z
-                                                M257.5,114.9c-4.8,0.3-9.7,0.4-14.5,0.9c-23.2,2.2-20.8,35,2.5,34.4c12.6-0.3,24.2-1.3,36.6,2.2c10.7,3,21.1,8,30.8,13.6
-                                                c31.9,18.2,58,48.2,70.8,82.8c4.1,11.1,6,23,5.5,34.8c-0.4,8.8-2.6,18.4,5.2,24.8c6.9,5.7,17.6,4.9,23.6-1.7
-                                                c6.7-7.5,5.9-19.8,5.6-29.1C421.4,196,339.3,115.2,257.5,114.9z M262.3,178.6c-11.8,0.2-18.7,5.7-20.1,14.2
-                                                c-1.4,8.5,3.4,16.6,11.7,19.3c2.2,0.7,4.6,1.2,6.9,1.7c29.5,6.7,49.4,24.5,60.6,52.2c2.3,5.7,3.1,12.1,4.9,18.1
-                                                c2.7,9.2,11.5,14.2,20.8,11.9c8.6-2.1,14.3-10.9,12.6-19.9c-1.1-5.8-2.3-11.7-4.2-17.3c-13-37.5-38.3-62.9-75.9-75.8
-                                                C273.2,180.8,266.5,179.7,262.3,178.6z"/>
-                                            <path d="M91.7,197.5c3.1-16.9,12.8-25.9,25.1-37.4c12.1-11.3,26.2-17.8,41.5-8.2c20.6,12.9,48.8,48.3,32.1,72.7
-                                                c-9,13.3-24.6,19.1-16.7,37c6.7,15.3,17.2,28.5,28.5,40.7c11.4,12.4,23.5,24.4,36.1,35.5c11.8,10.4,25.2,22.5,40.4,27.6
-                                                c18.1,6.1,23.9-10.9,37.4-19.1c13.3-8.1,26.6-3,39,4.1c12.6,7.1,25.3,17.1,32.8,29.7c9.7,16.4,0.1,31.4-11.2,43.7
-                                                c-10.6,11.5-20.3,21.2-36.7,22c-16.7,0.8-33.1-3.7-48.5-9.6c-30.1-11.6-57.4-29.2-82.2-49.6c-55.1-45.4-105.9-106.4-117.5-178.7
-                                                C91.7,204.4,91.7,201,91.7,197.5z"/>
-                                            <path d="M257.5,114.9c81.7,0.2,163.9,81,166,162.7c0.2,9.3,1.1,21.6-5.6,29.1c-6,6.6-16.7,7.4-23.6,1.7
-                                                c-7.8-6.4-5.6-16-5.2-24.8c0.5-11.8-1.4-23.7-5.5-34.8c-12.8-34.6-38.9-64.6-70.8-82.8c-9.7-5.5-20-10.5-30.8-13.6
-                                                c-12.4-3.5-24-2.5-36.6-2.2c-23.3,0.5-25.7-32.2-2.5-34.4C247.8,115.4,252.7,115.2,257.5,114.9z"/>
-                                            <path d="M262.3,178.6c4.2,1,10.9,2.2,17.3,4.4c37.5,13,62.9,38.3,75.9,75.8c1.9,5.6,3.1,11.5,4.2,17.3c1.7,9-4,17.8-12.6,19.9
-                                                c-9.2,2.3-18-2.7-20.8-11.9c-1.8-6-2.6-12.3-4.9-18.1c-11.2-27.7-31.1-45.5-60.6-52.2c-2.3-0.5-4.7-0.9-6.9-1.7
-                                                c-8.3-2.7-13.1-10.8-11.7-19.3C243.7,184.3,250.6,178.8,262.3,178.6z"/>
-                                        </g>
-                                    </g>
-                                </g>
-                            </g>
-                            <g id="circle">
+                <svg version="1.1" id="Layer_2_00000066506409452005454220000007952151538854721684_"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 542 541.5"
+                        style="enable-background:new 0 0 542 541.5;" xml:space="preserve">
+                    <g id="phone">
+                        <g id="pVxSui.tif">
+                            <g>
                                 <g>
-                                    <path d="M271,539.7c-71.9,0-139.5-28-190.3-78.7C29.8,410.1,1.8,342.5,1.8,270.8s28-139.4,78.8-190.2
-                                        C131.5,29.8,199.1,1.8,271,1.8s139.5,28,190.3,78.7s78.8,118.3,78.8,190.1s-28,139.4-78.8,190.1
-                                        C410.5,511.7,342.9,539.7,271,539.7z M271,35.3c-62.9,0-122.1,24.5-166.7,69s-69,103.6-69,166.5c0,62.8,24.5,122,69,166.5
-                                        c44.5,44.4,103.6,69,166.7,69s122.1-24.5,166.7-69s69-103.6,69-166.5c0-62.8-24.5-122-69-166.5C393.1,59.9,333.9,35.3,271,35.3z"
-                                        />
+                                    <path d="M91.7,197.5c3.1-16.9,12.8-25.9,25.1-37.4c12.1-11.3,26.2-17.8,41.5-8.2c20.6,12.9,48.8,48.3,32.1,72.7
+                                        c-9,13.3-24.6,19.1-16.7,37c6.7,15.3,17.2,28.5,28.5,40.7c11.4,12.4,23.5,24.4,36.1,35.5c11.8,10.4,25.2,22.5,40.4,27.6
+                                        c18.1,6.1,23.9-10.9,37.4-19.1c13.3-8.1,26.6-3,39,4.1c12.6,7.1,25.3,17.1,32.8,29.7c9.7,16.4,0.1,31.4-11.2,43.7
+                                        c-10.6,11.5-20.3,21.2-36.7,22c-16.7,0.8-33.1-3.7-48.5-9.6c-30.1-11.6-57.4-29.2-82.2-49.6c-55.1-45.4-105.9-106.4-117.5-178.7
+                                        C91.7,204.4,91.7,201,91.7,197.5z"/>
+                                    <path d="M257.5,114.9c81.7,0.2,163.9,81,166,162.7c0.2,9.3,1.1,21.6-5.6,29.1c-6,6.6-16.7,7.4-23.6,1.7
+                                        c-7.8-6.4-5.6-16-5.2-24.8c0.5-11.8-1.4-23.7-5.5-34.8c-12.8-34.6-38.9-64.6-70.8-82.8c-9.7-5.5-20-10.5-30.8-13.6
+                                        c-12.4-3.5-24-2.5-36.6-2.2c-23.3,0.5-25.7-32.2-2.5-34.4C247.8,115.4,252.7,115.2,257.5,114.9z"/>
+                                    <path d="M262.3,178.6c4.2,1,10.9,2.2,17.3,4.4c37.5,13,62.9,38.3,75.9,75.8c1.9,5.6,3.1,11.5,4.2,17.3c1.7,9-4,17.8-12.6,19.9
+                                        c-9.2,2.3-18-2.7-20.8-11.9c-1.8-6-2.6-12.3-4.9-18.1c-11.2-27.7-31.1-45.5-60.6-52.2c-2.3-0.5-4.7-0.9-6.9-1.7
+                                        c-8.3-2.7-13.1-10.8-11.7-19.3C243.7,184.3,250.6,178.8,262.3,178.6z"/>
                                 </g>
                             </g>
-                        </svg>
+                        </g>
+                    </g>
+                    <g id="circle">
+                        <g>
+                            <path d="M271,539.7c-71.9,0-139.5-28-190.3-78.7C29.8,410.1,1.8,342.5,1.8,270.8s28-139.4,78.8-190.2
+                                C131.5,29.8,199.1,1.8,271,1.8s139.5,28,190.3,78.7s78.8,118.3,78.8,190.1s-28,139.4-78.8,190.1
+                                C410.5,511.7,342.9,539.7,271,539.7z M271,35.3c-62.9,0-122.1,24.5-166.7,69s-69,103.6-69,166.5c0,62.8,24.5,122,69,166.5
+                                c44.5,44.4,103.6,69,166.7,69s122.1-24.5,166.7-69s69-103.6,69-166.5c0-62.8-24.5-122-69-166.5C393.1,59.9,333.9,35.3,271,35.3z"
+                                />
+                        </g>
+                    </g>
+                </svg>
+
                     <a href="tel:+61421238196">0421 238 196</a> 
                         <svg version="1.1" id="Layer_2_00000153669093409830882580000014510441326513207975_"
                             xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 542 541.5"
@@ -386,36 +400,6 @@
                     <a href="https://meet.google.com/zvd-vaeg-swx">Google Meet</a>
                 </div>
                 <?php echo do_shortcode('[contact-form-7 id="62" title="Contact form 1"]');?>
-            </div>
-            <div class="col-lg-6">
-                <div class="txtcontent">
-                    <div class="content">
-                        <h1 class="ml8">
-                            <span class="text-wrapper">
-                                <span class="letters">
-                                    Let's Work Together
-                                </span>
-                            </span>
-                        </h1>
-
-                            <div class="row">
-                                <h3>You've got <span style="color:#c09e6a">big plans.</span> <br>Im here to help.</h3>
-                                <div class="contact-details">
-                                    <div class="bus">
-                                        <h3>Available</h3>
-                                        <p>Monday to Sunday
-                                        <br>6am to 6pm AEST
-                                        </p>
-                                    </div>
-                                    <div class="loc">
-                                        <h3>Location</h3>
-                                        <p>Brisbane City 4000
-                                        <br>Queensland, Australia</p>
-                                    </div>
-                                </div>
-                            </div>
-                    </div>
-                </div>
             </div>
  
         </div>
