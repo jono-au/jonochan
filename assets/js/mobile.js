@@ -16,7 +16,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 });
 
     
-    const mobmenu = document.querySelectorAll("#menu-menu-1 li");
+const mobmenu = document.querySelectorAll("#menu-menu-1 li");
         mobmenu.forEach(function(menuitem) {
                 menuitem.addEventListener('click', function() {
                     document.getElementById("myNav").style.width = "0%";
